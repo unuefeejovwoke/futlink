@@ -649,7 +649,17 @@ footer .copyright{
         margin: 10px;
     }
 }
-
+@media (max-width: 500px){
+    .section-p1 {
+        padding: 40px 12px;
+    }
+    #product1 .pro{
+        min-width: 150px;
+    }
+    #product1 .pro .des h4{
+        font-size: 12px;
+    }
+}
 @media (max-width: 477px) {
     .section-p1{
         padding: 20px;
@@ -675,7 +685,8 @@ footer .copyright{
         margin: 0 0 15px 0;
     }
     #product1 .pro{
-        width: 100%;
+        width: 50%;
+        min-width: 120px;
     }
     #banner{
         height: 40vh;
